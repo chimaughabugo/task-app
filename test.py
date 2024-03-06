@@ -10,4 +10,4 @@ def test2():
     
 def test3():
     response = app.test_client().get('/edit')
-    assert b"scream" in response.data
+    assert b"To Do App" in response.data
